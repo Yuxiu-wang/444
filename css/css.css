@@ -1,0 +1,171 @@
+@charset "utf-8";
+/*通用代码*/
+*{margin: 0; padding: 0; font-size: 12px; color: #ccc;}
+a{text-decoration: none;}
+li{list-style: none;}
+.middle{margin: 0 auto; width: 1200px;}
+.left{float: left;}
+.right{float: right;}
+
+
+/*顶部导航*/
+.top{height: 27px;}
+.topLeft{width: 100px; line-height: 27px; color: gray;}
+.topLeft a{color: blue;}
+.topLeft a:hover{color: red;}
+.topRight{width: 570px; height: 27px; line-height: 30px}
+.topRight img{position: relative;top: 5px; right: 5px;}
+.topRight li{float: left; background: url(../img/indexhead_sprite.png) right -250px;}
+.topRight li a{color: gray;  /*padding-left: 5px; padding-right: 15px;*/}
+.topRight li a:hover{color: red;}
+.topA{ background: url(../img/tel.png) no-repeat right -256px;padding-left: 8px; padding-right: 18px;}
+.topLi{position: relative;}
+.p{position: absolute;top: 0px; left: -2px;border: 1px solid gray;  text-align: center;
+      width: 67px; padding-top:26px; line-height: 20px;/*background: red;*/}
+
+
+/*logo和搜索部分*/
+.logo{height: 70px; width: 1040px; padding-top: 50px; padding-left: 160px; background: white url(../img/logo.png) no-repeat 3px 25px;}
+form{border: 3px red solid; width: 480px; height: 26px;}
+.logo label{display: inline-block; width: 50px; color: black; font-size: 13px; text-align: center;
+      border-right: #ccc 3px solid; line-height: 28px; position: relative;left: 10px; top: -3px;}
+input{width: 340px; height: 27px; border: none; color: black; padding-left: 16px; position: relative;top: -3px; left: 6px;}
+button{width: 63px; height: 32px; border: none; background: red; position: relative;left: 3px; top: -3px;}
+.logo li{float: left; color: black;padding-top: 3px;padding-right: 10px;}
+
+
+/*导航菜单*/
+.nav{height: 32px;background: white; line-height: 32px;}
+.navUl li{display: inline-block;}
+.navUl a:hover{color: red;}
+.navLi{background: #FF3C3C url(../img/indexhead_sprite.png) no-repeat -114px -1205px; width: 200px;text-align: center; font-weight: bold;}
+.nav .navRed{color: red; padding: 0px 20px; font-weight: bold;}
+.nav .navBlack{color: black; padding: 0px 20px; font-weight: bold;}
+
+
+/*中间焦点轮播图和右侧内容*/
+.banner{height: 398px;background: #FF3C3C; border-top: 2px solid red;}
+.banner1{height: 398px; width: 1200px; background: #FFC0CB }
+.bannerLeft{width: 200px; height: 398px; background: #c23131;}
+.bannerLeft ul{padding-top: 5px;}
+.bannerLeft li{line-height: 17px; padding-left: 40px;}
+.bannerLeft a:hover{color: red; text-decoration: underline;}
+.bannerLeft label{display: inline-block;width: 20px; height: 18px; background: url(../img/indexhead_sprite.png) no-repeat 0 -1155px;float: right;}
+.bannerLeft li:nth-of-type(1){background: url(../img/nav.png) no-repeat 13px -1px;}
+.bannerLeft li:nth-of-type(2){background: url(../img/nav.png) no-repeat 13px -48px;}
+.bannerLeft li:nth-of-type(3){background: url(../img/nav.png) no-repeat 13px -90px;}
+.bannerLeft li:nth-of-type(4){background: url(../img/nav.png) no-repeat 13px -135px;}
+.bannerLeft li:nth-of-type(5){background: url(../img/nav.png) no-repeat 13px -173px;}
+.bannerLeft li:nth-of-type(6){background: url(../img/nav.png) no-repeat 13px -212px;}
+.bannerLeft li:nth-of-type(7){background: url(../img/nav.png) no-repeat 13px -250px;}
+.bannerLeft li:nth-of-type(8){background: url(../img/nav.png) no-repeat 13px -292px;}
+.bannerLeft li:nth-of-type(9){background: url(../img/nav.png) no-repeat 13px -331px;}
+.bannerLeft li:nth-of-type(10){background: url(../img/nav.png) no-repeat 13px -370px;}
+.bannerLeft li:nth-of-type(11){background: url(../img/nav.png) no-repeat 13px -406px;}
+.bannerLeft li:nth-of-type(12){background: url(../img/nav.png) no-repeat 13px -446px;}
+.bannerCenter{ height: 398px; width: 750px; background:  url(../img/banner.jpg) no-repeat; position: relative;}
+.bannerCenter-B{position: absolute; height: 17px; width: 160px;margin: 368px 0 0 300px;}
+.bannerCenter-B li{background: #ccc;width: 15px; height: 15px; display: inline-block;margin: 0 6px;}
+.bannerCenter-B .bannerCenter-BLi{background: red;}
+.bannerRight{width: 250px; height: 398px; background: white;}
+.bannerRightTop{width: 250px; height: 100px;}
+.bannerRightTop a{color: black; float: left; border-bottom: 1px solid darkgray; padding: 13px 15px;}
+.bannerRightTop a:hover{color: red;}
+.bannerRightCenter{width: 250px; height: 100px;}
+.bannerRightCenter li{ color: black; padding-left: 16px; padding-top: 5px;}
+.bannerRightCenterP{background: gainsboro; border-top: 1px solid darkgray; height: 27px;width: 240px;position: relative;bottom: -9px;}
+.bannerRightCenterP a{color: black; line-height: 27px; padding: 0 18px;}
+.bannerRightCenterP a:hover{color: red;}
+.bannerRightCenterP span{color: red;}
+.bannerRightCenterP .bannerRightCenterPA{ border-left: 1px darkgray solid;}
+.bannerRightButtom{width: 250px; height: 198px;}
+.bannerRightButtom p{ color: black; line-height: 35px; padding-top: 25px; padding-left: 30px;}
+.bannerRightButtom input{width: 100px; height: 20px; border: 1px darkgray solid;}
+.bannerRightButtom span{color: red;}
+.bannerRightButtom button{width: 80px;margin-left: -13px; margin-top: 25px;}
+
+
+/*食品饮料和个护厨卫模块*/
+.food{width: 1200px; height: 400px;}
+.foodTop{height: 60px;}
+.foodTopLeft{width: 100px; margin-top: 30px; float: left; font-size: 17px; color: red;padding-left:10px;}
+.foodTopRight{ width: 300px; height: 35px; float: right;margin-top: 20px;}
+.foodTopRight li{float: left; color: black;padding-top: 13px; padding-right: 10px;}
+.foodButtom{width: 1200px; height: 400px; border-top: 2px solid red;}
+.foodButtom01{width: 219px; height: 338px;background: white; float: left;}
+.foodButtom01 ul{ height: 110px; padding: 3px 20px;}
+.foodButtom01 li{ padding-top: 10px; padding-bottom: 9px; padding-right: 40px; float: left; border-bottom: 1px dashed gainsboro;}
+.foodButtom01 a{color: black;}
+.foodButtom01 p {text-align: center;}
+.foodButtom01 p img{width: 150px; height: 160px;padding: 20px;}
+.foodButtom01 p span{color: red; font-size: 16px;}
+.foodButtom02{width: 330px; height: 338px; background: url(../img/sec1-1.jpg) no-repeat; float: left;}
+.foodButtom03{width: 217px; height: 338px; background: white;float: left;}
+.foodButtom03 .PTop{text-align: center;padding: 10px 18px;}
+.foodButtom03 span{color: black; font-size: 15px;}
+.foodButtom03 .PButtom{text-align: center;padding: 12px 18px;}
+.foodButtom04{width: 217px; height: 338px; float: left;}
+.foodButtom04P{text-align: center; padding: 6px 10px;}
+.foodButtom04P img{padding-top: 6px;}
+.foodButtom04 span{color: black; font-size: 15px;}
+.foodButtom05{width: 217px; height: 338px; float: left;}
+.foodButtom05 span{color: black; font-size: 15px;}
+.foodButtom05 .PT{text-align: center;padding: 6px 25px;}
+.foodButtom05 img{padding-top: 6px;}
+.foodButtom05 .PB{text-align: center;padding: 8px 25px;}
+
+.kitchen{width: 1200px; height: 650px;}
+.kitchenTop{height: 60px;}
+.kitchenTopLeft{width: 100px; margin-top: 30px; float: left; font-size: 17px; color: greenyellow;padding-left:10px;}
+.kitchenTopRight {width: 350px; height: 35px; float: right;margin-top: 20px;}
+.kitchenTopRight li{float: left; color: black;padding-top: 13px; padding-right: 10px;}
+.kitchenButtom{width: 1200px; height: 650px; border-top: 2px solid greenyellow;}
+.kitchenButtom01{width: 219px; height: 588px;background: white; float: left;}
+.kitchenButtom01 ul{ height: 110px; padding: 3px 20px;}
+.kitchenButtom01 li{ padding-top: 10px; padding-bottom: 6px; padding-left: 24px; float: left; border-bottom: 1px dashed gainsboro;}
+.kitchenButtom01 a{color: black;}
+.center01{text-align: center; line-height: 20px;padding: -6px; margin-top: 10px;}
+.center01 img{padding: 15px;}
+.center01 span{color: greenyellow; font-size: 16px; font-weight: bold;}
+.buttom01{text-align: center; line-height: 20px;padding: -6px; margin-top: 20px;}
+.buttom01 img{padding: 15px;}
+.buttom01 span{color: greenyellow; font-size: 16px; font-weight: bold;}
+.kitchenButtom02{width: 330px; height: 588px; float: left;}
+.kitchenButtom02T{width: 330px; height: 360px; background: url(../img/sec1-8.jpg) no-repeat; position: relative;}
+.kitchenButtom02T-B{position: absolute; height: 17px; width: 160px;margin: 330px 0 0 120px;}
+.kitchenButtom02T-B li{background: #ccc;width: 30px; height: 6px; display: inline-block;margin: 0 6px;}
+.kitchenButtom02T-B .kitchenButtom02T-BLi{background: red;}
+.p1{padding-top: 65px; padding-left: 20px;width: 140px;}
+.p1 span{color: black; font-size: 15px;}
+.p1 .span{background: red; color: white;}
+.p2{float: right; padding-top: 30px; padding-right: 30px;}
+.kitchenButtom03{width: 217px; height: 588px; float: left;}
+.kitchenButtom03 .kTop{text-align: center;padding: 13px 18px; line-height: 20px;}
+.kitchenButtom03 span{color: black; font-size: 15px;}
+.kitchenButtom03 .KCenter{text-align: center;padding: 18px 18px; line-height: 20px;}
+.kitchenButtom03 .KButtom{text-align: center;padding: 18px 18px; line-height: 20px;}
+.kitchenButtom04{width: 217px; height: 588px; float: left;}
+.kitchenButtom04 .KiTop{text-align: center;padding: 18px 18px; line-height: 20px;}
+.kitchenButtom04 span{color: black; font-size: 15px;}
+.kitchenButtom04 .KiButtom{text-align: center;padding: 18px 18px; line-height: 20px;}
+.kitchenButtom05{width: 217px; height: 588px; float: left;}
+.kitchenButtom05 .kitTop{text-align: center;padding: 18px 18px; line-height: 20px;}
+.kitchenButtom05 span{color: black; font-size: 15px;}
+.kitchenButtom05 .KitButtom{text-align: center;padding: 20px 18px; line-height: 20px;}
+
+
+
+
+
+
+
+
+
+
+/*网站版权*/
+.banquan{height: 100px; background: white; text-align: center;line-height: 30px;}
+.banquan a{ color: black;}
+.banquan a:hover{color: red;}
+.banquanU1 li{display: inline-block;padding-right: 10px;}
+.banquanU2 li{display: inline-block;padding-right: 10px;}
+p{display: inline-block;padding-right: 10px; color: black;}
